@@ -1,13 +1,11 @@
 package fr.lernejo.travelsite;
 
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
-public class Launcher {
+public class Inscription_list {
 
     public static void main(String[] args) {
-
-        SpringApplication.run(Launcher.class, args);
+        SpringApplication.run(Inscription_list.class, args);
     }
 }
