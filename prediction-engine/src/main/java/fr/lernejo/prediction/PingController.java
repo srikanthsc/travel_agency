@@ -10,7 +10,7 @@ public class PingController {
     @GetMapping(path = "/api/ping")
     String ping() {
 
-        return "ok";
+        return "OK";
 
 
 
