@@ -13,7 +13,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 @Component
-public class TemperatureService {
+public class TemperatureService<CaseInsensitiveString, TemperatureGenerationData> {
 
     private final Map<CaseInsensitiveString, TemperatureGenerationData> temperatureDatasByCountry;
     private final Random random = new Random();
