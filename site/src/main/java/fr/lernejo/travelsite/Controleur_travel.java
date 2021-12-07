@@ -11,6 +11,7 @@ public class Controleur_travel {
     private final ArrayList<Travels> list = new ArrayList<>();
     private final ArrayList<Inscription> list2 = new ArrayList<>();
 
+
     @GetMapping("/api/travels")
     public ArrayList<Travels> getList() {
         list.add(new Travels("Caribbean", 32.4));
@@ -19,7 +20,6 @@ public class Controleur_travel {
     }
 
     @PostMapping("api/inscription")
-
     public void add(@RequestBody Inscription myinscription) {
         this.list2.add(myinscription);
 
