@@ -6,6 +6,7 @@ import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.shouldHaveThrown;
 
 class TemperatureServiceTest {
 
@@ -27,5 +28,6 @@ class TemperatureServiceTest {
     void getting_the_temperature_of_france_gives_a_believable_value(String country) {
         double temperature = service.getTemperature(country);
         assertThat(temperature).isBetween(8D, 32D);
+        System.out.println(temperature);
     }
 }

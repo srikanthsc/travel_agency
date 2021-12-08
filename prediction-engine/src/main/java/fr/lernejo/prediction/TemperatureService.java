@@ -62,5 +62,7 @@ public class TemperatureService<CaseInsensitiveString, TemperatureGenerationData
             CaseInsensitiveString that = (CaseInsensitiveString) o;
             return Objects.equals(value.toLowerCase(Locale.ROOT), that.value.toLowerCase(Locale.ROOT));
         }
+
+
     }
 }
