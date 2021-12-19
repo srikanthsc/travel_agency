@@ -21,26 +21,4 @@ public class Catalog_country {
         listcountry1.add(new Travels("Antigua", 35.1));
         return listcountry1;
     }
-
-    @GetMapping("api/testing1")
-    public ArrayList<Travels> getListcountry2(){
-        listcountry2.add(new Travels("Argentina", 35.1));
-        listcountry2.add(new Travels("Armenia", 35.1));
-        listcountry2.add(new Travels("Azerbaijan", 35.1));
-        listcountry2.add(new Travels("The Bahamas", 35.1));
-        listcountry2.add(new Travels("Bahrain", 35.1));
-        listcountry2.add(new Travels("Bangladesh", 35.1));
-        return listcountry2;
-    }
-
-    @GetMapping("api/testing2")
-    public ArrayList<Travels> getListcountry3(){
-        listcountry3.add(new Travels("Barbados", 35.1));
-        listcountry3.add(new Travels("Belarus", 35.1));
-        listcountry3.add(new Travels("Belgium", 35.1));
-        listcountry3.add(new Travels("Belize", 35.1));
-        listcountry3.add(new Travels("Benin", 35.1));
-        listcountry3.add(new Travels("Bhutan", 35.1));
-        return listcountry3;
-    }
 }
