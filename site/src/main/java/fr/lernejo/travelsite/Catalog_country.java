@@ -9,8 +9,6 @@ import java.util.List;
 @RestController
 public class Catalog_country {
     private final ArrayList<Travels> listcountry1 = new ArrayList<>();
-    private final ArrayList<Travels> listcountry2 = new ArrayList<>();
-    private final ArrayList<Travels> listcountry3 = new ArrayList<>();
     @GetMapping("api/testing")
     public ArrayList<Travels> getListcatalog() {
         listcountry1.add(new Travels("Australia", 35.1));
