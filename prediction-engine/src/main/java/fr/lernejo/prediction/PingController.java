@@ -51,7 +51,7 @@ public class PingController {
         //LocalDate tomorrow = today.plus(1, ChronoUnit.DAYS);
         LocalDate yesterday = today.minusDays(1);
         TemperatureService ts1= new TemperatureService();
-        td.add(new Temperature(yesterday,ts1.getTemperature("india")));//add another country
+        td.add(new Temperature(yesterday,ts1.getTemperature("france")));
 
     }
 }
