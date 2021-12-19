@@ -8,7 +8,7 @@ import org.junit.jupiter.params.provider.CsvSource;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.shouldHaveThrown;
 
-class TemperatureServiceTest {
+class temperaturesServiceTest {
 
     private final TemperatureService service = new TemperatureService();
 

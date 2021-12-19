@@ -10,7 +10,7 @@ import java.util.ArrayList;
 public class PingController {
     private final String DATE_FORMAT_DATEONLY = null;
     private final ArrayList<Country> listcountry = new ArrayList<>();
-    private final ArrayList<Temperature> td = new ArrayList<>();
+    private final ArrayList<temperatures> td = new ArrayList<>();
     private final ArrayList<global> gb = new ArrayList<>();
 
 
@@ -42,7 +42,7 @@ public class PingController {
     public void gettd() {
         LocalDate localDate = LocalDate.now();
         TemperatureService ts= new TemperatureService();
-        td.add(new Temperature(localDate, ts.getTemperature("france")));
+        td.add(new temperatures(localDate, ts.getTemperature("france")));
 
     }
 
@@ -51,7 +51,7 @@ public class PingController {
         //LocalDate tomorrow = today.plus(1, ChronoUnit.DAYS);
         LocalDate yesterday = today.minusDays(1);
         TemperatureService ts1= new TemperatureService();
-        td.add(new Temperature(yesterday,ts1.getTemperature("france")));
+        td.add(new temperatures(yesterday,ts1.getTemperature("france")));
 
     }
 }
