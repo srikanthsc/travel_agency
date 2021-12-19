@@ -16,8 +16,8 @@ public class Controleur_travel {
     public ArrayList<Travels> getList() {
         list.add(new Travels("Caribbean", 32.4));
         list.add(new Travels("Australia", 35.1));
-        list.add(new Travels("France", 32.4));
-        list.add(new Travels("Spain", 35.1));
+        //list.add(new Travels("France", 32.4));
+        //list.add(new Travels("Spain", 35.1));
         return list;
     }
 
