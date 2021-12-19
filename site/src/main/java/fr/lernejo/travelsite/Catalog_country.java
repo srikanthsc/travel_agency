@@ -17,15 +17,6 @@ public class Catalog_country {
         listcountry1.add(new Travels("Albania", 35.1));
         listcountry1.add(new Travels("Andorra", 35.1));
         listcountry1.add(new Travels("Antigua", 35.1));
-        listcountry1.add(new Travels("Argentina", 35.1));
-        listcountry1.add(new Travels("Armenia", 35.1));
-        listcountry1.add(new Travels("Austria", 35.1));
-        listcountry1.add(new Travels("Azerbaijan", 35.1));
-        listcountry1.add(new Travels("The Bahamas", 35.1));
-        listcountry1.add(new Travels("Bahrain", 35.1));
-        listcountry1.add(new Travels("Bangladesh", 35.1));
-        listcountry1.add(new Travels("Barbados", 35.1));
-        listcountry1.add(new Travels("Belarus", 35.1));
         return listcountry1;
     }
 }
