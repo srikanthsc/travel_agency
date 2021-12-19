@@ -10,7 +10,7 @@ public class Controleur_travel {
 
     private final ArrayList<Travels> list = new ArrayList<>();
     private final ArrayList<Inscription> list2 = new ArrayList<>();
-   Catalog_country catalog_country=new Catalog_country();
+   //Catalog_country catalog_country=new Catalog_country();
 
     @GetMapping("/api/travels")
     public ArrayList<Travels> getList() {

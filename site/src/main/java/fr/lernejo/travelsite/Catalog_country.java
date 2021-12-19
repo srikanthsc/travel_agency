@@ -23,7 +23,7 @@ public class Catalog_country {
         listcountry1.add(new Travels("Austria", 35.1));
         listcountry1.add(new Travels("Azerbaijan", 35.1));
         listcountry1.add(new Travels("The Bahamas", 35.1));
-        
+
 
         //System.out.println(++listcountry1);
         return listcountry1;
