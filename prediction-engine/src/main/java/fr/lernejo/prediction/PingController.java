@@ -28,7 +28,7 @@ public class PingController {
 
     }
 
-    @GetMapping("/api/temperatures")
+    @GetMapping("/api/temperature")
     public global getListcountry() {
         gettd();
         getTd1();
