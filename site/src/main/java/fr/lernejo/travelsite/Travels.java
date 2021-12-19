@@ -1,5 +1,5 @@
 package fr.lernejo.travelsite;
 
-public record Travels(String name, double temperature)
+public record Travels(String country, double temperature)
 {
 }
