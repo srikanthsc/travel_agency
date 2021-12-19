@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 @RestController
 public class PingController {
-    private static final String DATE_FORMAT_DATEONLY = null;
+    private final String DATE_FORMAT_DATEONLY = null;
     private final ArrayList<Country> listcountry = new ArrayList<>();
     private final ArrayList<Temperature> td = new ArrayList<>();
     private final ArrayList<global> gb = new ArrayList<>();
