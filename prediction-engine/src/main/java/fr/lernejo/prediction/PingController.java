@@ -48,8 +48,6 @@ public class PingController implements Information {
         LocalDate localDate = LocalDate.now();
         TemperatureService ts= new TemperatureService();
         td.add(new temperatures(localDate, ts.getTemperature("France")));
-        System.out.println(td.add(new temperatures(localDate, ts.getTemperature("France"))));
-
     }
 
     public void getTd1() {
@@ -58,7 +56,5 @@ public class PingController implements Information {
         LocalDate yesterday = today.minusDays(1);
         TemperatureService ts1= new TemperatureService();
         td.add(new temperatures(yesterday,ts1.getTemperature("France")));
-        System.out.println(td.add(new temperatures(yesterday,ts1.getTemperature("France"))));
-
     }
 }
