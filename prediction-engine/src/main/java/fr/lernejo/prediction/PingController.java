@@ -37,7 +37,7 @@ public class PingController implements Information {
         pingController.information();
         gettd();
         getTd1();
-        global gb= new global("Brazil",td);
+        global gb= new global("France",td);
         return gb;
 
 
@@ -47,7 +47,8 @@ public class PingController implements Information {
     public void gettd() {
         LocalDate localDate = LocalDate.now();
         TemperatureService ts= new TemperatureService();
-        td.add(new temperatures(localDate, ts.getTemperature("Brazil")));
+        td.add(new temperatures(localDate, ts.getTemperature("France")));
+
     }
 
     public void getTd1() {
@@ -55,6 +56,7 @@ public class PingController implements Information {
         //LocalDate tomorrow = today.plus(1, ChronoUnit.DAYS);
         LocalDate yesterday = today.minusDays(1);
         TemperatureService ts1= new TemperatureService();
-        td.add(new temperatures(yesterday,ts1.getTemperature("Brazil")));
+        td.add(new temperatures(yesterday,ts1.getTemperature("France")));
+
     }
 }
