@@ -55,6 +55,6 @@ public class PingController implements Information {
         //LocalDate tomorrow = today.plus(1, ChronoUnit.DAYS);
         LocalDate yesterday = today.minusDays(1);
         TemperatureService ts1= new TemperatureService();
-        td.add(new temperatures(yesterday,ts1.getTemperature("Bzazil")));
+        td.add(new temperatures(yesterday,ts1.getTemperature("Brazil")));
     }
 }
